@@ -1,0 +1,11 @@
+[package]
+name = "iced_table_fluid"
+version = "2025.10.1"
+edition = "2024"
+authors = ["Truong Van <truongvan@live.com>"]
+license = "MIT"
+categories = ["gui"]
+repository = "https://github.com/truongvan/iced_table_fluid"
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced" , default-features = false, features = ["advanced", "tokio", "wgpu"]}
